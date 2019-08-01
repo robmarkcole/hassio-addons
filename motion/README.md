@@ -5,7 +5,7 @@
 
 
 ### Home Assistant integration
-You can view the live MJPEG stream using:
+BROKEN [ISSUE](https://github.com/robmarkcole/hassio-addons/issues/1) USE IFRAME - You can view the live MJPEG stream using:
 ```
 camera:
   - platform: mjpeg
@@ -13,7 +13,7 @@ camera:
     name: motioncam
 ```
 
-If you hane configured a periodic snapshot you can display the last snapped image with:
+If you have configured a periodic snapshot you can display the last snapped image with:
 ```
 camera:
   - platform: local_file
