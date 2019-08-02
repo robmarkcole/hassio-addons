@@ -1,7 +1,6 @@
 ## Motion Addon
-* Addon to use a usb camera with motion detection, using https://motion-project.github.io/
+* Addon to use a usb camera, exposing an unsecured MJPEG feed on port 8081, and *no* images are saved to disk using the default settings. The code is [hosted on Github here](https://github.com/robmarkcole/hassio-addons)
 * This addon was forked from: https://github.com/lovejoy777/hassio-addons
-* This fork will expose the MJPEG feed on port 8081, and *no* images are saved to disk using the default settings.
 
 
 ### Home Assistant integration
