@@ -50,12 +50,12 @@ Path to a predefined motion.conf settings file
 */dev/video0*
 
 ##### width
-*640*
+*1280*
 
 Image width (pixels). Valid range: Camera dependent
 
 ##### height
-*480*
+*720*
 
 Image height (pixels). Valid range: Camera dependent
 
