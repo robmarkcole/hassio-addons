@@ -11,7 +11,6 @@ camera:
     mjpeg_url: http://homeassistant.local:8081
     name: motioncam
 ```
-[ISSUE WITH IFRAME](https://github.com/robmarkcole/hassio-addons/issues/1)
 
 If you have configured a periodic snapshot you can display the last snapped image with:
 ```
