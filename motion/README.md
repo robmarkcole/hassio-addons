@@ -1,16 +1,17 @@
 ## Motion Addon
-* Addon to use a usb camera, exposing an unsecured MJPEG feed on port 8081, and *no* images are saved to disk using the default settings. The code is [hosted on Github here](https://github.com/robmarkcole/hassio-addons)
+* Addon to use a usb camera, exposing an unsecured MJPEG feed on [http://homeassistant.local:8081](http://homeassistant.local:8081), and *no* images are saved to disk using the default settings. The code is [hosted on Github here](https://github.com/robmarkcole/hassio-addons)
 * This addon was forked from: https://github.com/lovejoy777/hassio-addons
 
 
 ### Home Assistant integration
-BROKEN [ISSUE](https://github.com/robmarkcole/hassio-addons/issues/1) USE IFRAME - You can view the live MJPEG stream using:
+USE IFRAME - You can view the live MJPEG stream using:
 ```
 camera:
   - platform: mjpeg
-    mjpeg_url: http://hassio.local:8081
+    mjpeg_url: http://homeassistant.local:8081
     name: motioncam
 ```
+[ISSUE WITH IFRAME](https://github.com/robmarkcole/hassio-addons/issues/1)
 
 If you have configured a periodic snapshot you can display the last snapped image with:
 ```
@@ -37,7 +38,7 @@ panel_iframe:
   motion:
     title: motion
     icon: mdi:camera
-    url: http://hassio.local:8081
+    url: http://homeassistant.local:8081
 ```
 
 ### Settings
@@ -92,7 +93,7 @@ Use absolute path.
 ##### snapshot_interval
 *0*
 
-Make automated snapshot every N seconds (0 = disabled)
+Make automated snapshot every N seconds (0 = disabled). Note that this must be > 0 to save any photos.
 
 ##### snapshot_name
 *%v-%Y%m%d%H%M%S-snapshot*
