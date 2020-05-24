@@ -5,3 +5,6 @@
 
 ## Hello flask
 Hello world flask addon that simply returns a string. Navigate to [http://homeassistant.local:5000/](http://homeassistant.local:5000/)
+
+## Streamlit
+Attempt to run the streamlit demo -> https://docs.streamlit.io/en/latest/getting_started.html
