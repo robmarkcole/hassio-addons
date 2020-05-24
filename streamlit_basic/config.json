@@ -1,8 +1,8 @@
 {
-  "name": "Hello flask",
-  "version": "0.23",
-  "slug": "hello_flask",
-  "description": "Hello world flask add-on!",
+  "name": "Hello streamlit",
+  "version": "0.1",
+  "slug": "hello_streamlit",
+  "description": "Hello streamlit",
   "arch": [
     "armhf",
     "armv7",
@@ -15,6 +15,6 @@
   "options": {},
   "schema": {},
   "ports": {
-    "5000/tcp": 5000
+    "8501/tcp": 8501
   }
 }

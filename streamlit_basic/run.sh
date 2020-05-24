@@ -1,5 +1,5 @@
 #!/usr/bin/with-contenv bashio
 
-echo Running flask hello world
-python3 app.py
+echo Running streamlit
+streamlit hello
 
