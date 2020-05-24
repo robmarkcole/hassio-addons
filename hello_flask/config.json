@@ -1,0 +1,20 @@
+{
+  "name": "Hello flask",
+  "version": "0.1",
+  "slug": "hello_flask",
+  "description": "Hello world flask add-on!",
+  "arch": [
+    "armhf",
+    "armv7",
+    "aarch64",
+    "amd64",
+    "i386"
+  ],
+  "startup": "before",
+  "boot": "auto",
+  "options": {},
+  "schema": {},
+  "ports": {
+    "5000/tcp": 5000
+  }
+}
