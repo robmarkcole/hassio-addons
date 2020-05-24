@@ -7,6 +7,7 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 # Copy Python requirements file
 COPY requirements.txt /tmp/
+COPY app.py /
 
 # Setup base
 ARG BUILD_ARCH=amd64
