@@ -1,6 +1,6 @@
 {
   "name": "Hello flask",
-  "version": "0.2",
+  "version": "0.23",
   "slug": "hello_flask",
   "description": "Hello world flask add-on!",
   "arch": [
