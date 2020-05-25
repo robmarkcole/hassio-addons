@@ -10,7 +10,7 @@ Hello world flask addon that simply returns a string. Navigate to [http://homeas
 Run the [streamlit demo](https://docs.streamlit.io/en/latest/getting_started.html). The build takes a long time, but succeeds in the end :-)
 
 <p align="center">
-<img src="https://github.com/robmarkcole/hassio-addons/blob/master/assets/streamlit.jpg" width="800">
+<img src="https://github.com/robmarkcole/hassio-addons/blob/master/assets/streamlit.jpg" width="1000">
 </p>
 
 # Development
