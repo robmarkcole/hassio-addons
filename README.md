@@ -7,8 +7,11 @@
 Hello world flask addon that simply returns a string. Navigate to [http://homeassistant.local:5000/](http://homeassistant.local:5000/)
 
 ## Streamlit
-Run the [streamlit demo](https://docs.streamlit.io/en/latest/getting_started.html). Basically streamlit has a ton of dependencies, and ultimately the build takes a very long time, but succeeds in the end :-)
+Run the [streamlit demo](https://docs.streamlit.io/en/latest/getting_started.html). The build takes a long time, but succeeds in the end :-)
 
+<p align="center">
+<img src="https://github.com/robmarkcole/hassio-addons/blob/master/assets/streamlit.jpg" width="800">
+</p>
 
 # Development
 * Setup samba server and use local vscode
