@@ -6,8 +6,8 @@
 ## Hello flask
 Hello world flask addon that simply returns a string. Navigate to [http://homeassistant.local:5000/](http://homeassistant.local:5000/)
 
-## Streamlit - not working
-Attempt to run the [streamlit demo](https://docs.streamlit.io/en/latest/getting_started.html). Basically streamlit has a ton of dependencies, and ultimately the build fails.
+## Streamlit
+Run the [streamlit demo](https://docs.streamlit.io/en/latest/getting_started.html). Basically streamlit has a ton of dependencies, and ultimately the build takes a very long time, but succeeds in the end :-)
 
 
 # Development
