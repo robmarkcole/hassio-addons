@@ -6,5 +6,9 @@
 ## Hello flask
 Hello world flask addon that simply returns a string. Navigate to [http://homeassistant.local:5000/](http://homeassistant.local:5000/)
 
-## Streamlit
+## Streamlit - not working yet
 Attempt to run the streamlit demo -> https://docs.streamlit.io/en/latest/getting_started.html
+
+# Development
+* Setup samba server and use local vscode
+* debug the docker image locally on my dev machine, first build `docker build -t $yourimage .` then run `docker run -it --entrypoint=/bin/bash $yourimage`
