@@ -1,0 +1,20 @@
+{
+  "name": "Tesseract",
+  "version": "0.3",
+  "slug": "tesseract",
+  "description": "Tesseract",
+  "arch": [
+    "armhf",
+    "armv7",
+    "aarch64",
+    "amd64",
+    "i386"
+  ],
+  "startup": "before",
+  "boot": "auto",
+  "options": {},
+  "schema": {},
+  "ports": {
+    "5000/tcp": 5000
+  }
+}
