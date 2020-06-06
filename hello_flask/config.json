@@ -1,6 +1,6 @@
 {
   "name": "Hello flask",
-  "version": "0.32",
+  "version": "0.34",
   "slug": "hello_flask",
   "description": "Hello world flask add-on!",
   "arch": [
@@ -13,10 +13,10 @@
   "startup": "before",
   "boot": "auto",
   "options": {
-    "NAME": null
+    "hello_name": null,
   },
   "schema": {
-    "NAME": "str"
+    "hello_name": "str",
   },
   "ports": {
     "5000/tcp": 5000

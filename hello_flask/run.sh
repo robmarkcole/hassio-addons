@@ -3,7 +3,7 @@ set -e
 
 CONFIG_PATH=/data/options.json
 
-NAME=$(jq --raw-output ".NAME" $CONFIG_PATH)
+HELLO_NAME="$(bashio::config 'hello_name')"
 
 echo Running flask
 python3 app.py

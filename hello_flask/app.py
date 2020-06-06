@@ -3,12 +3,12 @@ import os
 
 app = Flask(__name__)
 
-NAME = os.getenv("NAME")
+HELLO_NAME = os.getenv("HELLO_NAME")
 
 
 @app.route("/")
 def hello_world():
-    return f"Hey {NAME}, we have Flask in a Docker container!"
+    return f"Hey {HELLO_NAME}, we have Flask in a Docker container!"
 
 
 if __name__ == "__main__":
